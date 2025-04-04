@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Voltaire</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Título / Logo do portfólio -->
+        <div class="cabecalho_container">
+            <p class="cabecalho_titulo">Voltaire - Estudante de ADS</p>
+        </div>
+
+        <!-- Lista de links no header -->
+        <div>
+            <ul class="cabecalho_lista">
+                <li><a class="header_link" href="#about">Sobre mim</a></li>
+                <li><a class="header_link" href="#projects">Projetos</a></li>
+                <li><a class="header_link" href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Seção sobre, que foi utilizada para falar sobre mim -->
+    <section id="sobreMim">
+
+        <div class="sobreMim">
+            <h1 class="sobreMim_titulo">Voltaire Lofiego</h1>
+            <p class="sobreMim_descricao"><span>Sou</span> um profissional versátil com experiência em técnico de informática, mecânica e funilaria básica. Tenho habilidades tanto no mundo da tecnologia quanto no universo automotivo, unindo conhecimento técnico e paixão pelo que faço.
+                Nos momentos livres, me dedico aos meus hobbies: jogar videogame, automobilismo e restauração de automóveis antigos. Essas atividades refletem meu interesse por desafios, precisão e inovação, sempre buscando aprimorar minhas habilidades e explorar novas possibilidades.
+                Estou sempre aberto a novas oportunidades e aprendizados, pronto para encarar novos desafios e expandir meu conhecimento.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Seção projetos. que conta um pouco dos meus projetos feitos -->
+    <section id="meusProjetos">
+
+        <div>
+            <h1 class="meusProjetos_titulo">Meus projetos</h1>
+        </div>
+
+       <div class="meusProjetos_lista">
+        <div class="card">
+            <img src="/images/img_controle.jpg" alt="">
+            <div class="container">
+                <h4>Aplicativo</h4>
+                <p>criei um aplicativo simples para a prefeitura da minha regiao  com finalidade de controle de combustivel usando os dados do hodômetro  e a diferença do combustivel</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/images/comanda.webp" alt="">
+            <div class="container">
+                <h4>Projeto de comanda</h4>
+                <p>Projeto onde criei um sistema basico para comanda em um bar</p>
+            </div>
+        </div>
+       </div>
+
+    </section>
+
+
+    <!-- Seção contato, que possui uma chamada para entrar em contato comigo, seguido de um formulário -->
+    <section id="meuContato">
+        <div class="meuContato_container">
+            <div class="form_message">
+                <h2>Entre em contato.</h2>
+                <p>Preencha os campos com o seu nome, e-mail e uma mensagem com o seu objetivo para entrar em contato comigo.</p>
+            </div>
+    
+            <form class="form">
+    
+               <div>
+                    <label for="name" class="form_label">Nome</label>
+                    <input type="text" placeholder="Nome" class="form_input" id="name">
+               </div>
+    
+                <div>
+                    <label for="email" class="form__label">Email</label>
+                    <input type="email" placeholder="E-mail" class="form__input" id="email" />
+                </div>
+        
+                <div>
+                    <label for="menssage" class="form__label">Mensagem</label>
+                    <input type="text" placeholder="Mensagem" class="form__input" id="menssage" />
+                </div>
+
+                <button id="btn_form">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+<!-- Um footer para apresentar o desenvolvedor e trazer credibilidade -->
+    <footer>
+        <h5>Trabalho de Ferramentas de Desenvolvimento Web</h5>
+        <p>Criado por Voltaire Lofiego - Uninter 2025</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
